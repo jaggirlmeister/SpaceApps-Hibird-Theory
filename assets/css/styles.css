@@ -1,2 +1,55 @@
 /*font-family: 'Titillium Web', sans-serif;/*
 /*font-family: 'Sen', sans-serif;*/
+#map {
+    height: 100%;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  #sidebar{
+    position: absolute;
+    top: 0;
+    width: 30%;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+#logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo img{
+    width: 64%;
+    text-align: center;
+}
+
+.startBtn{
+    width: 64%;
+    height: 3em;
+    background: #E67C00;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 4em;
+}

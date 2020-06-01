@@ -1,18 +1,31 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani|Titillium+Web&display=swap" rel="stylesheet">
     <title>SpaceApps - Hibird Theory</title>
     <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Sen|Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>SpaceApps - Hibird Theory</h1>
+    <div id="map"></div>
 
-    <script src='assets/js/main.js'></script>
-
+    <div id="sidebar">
+        <div id="logo">
+            <img src="assets/media/Logo.svg">
+        </div>
+        <div class="btn">
+            <button id="start" class="startBtn">Start helping your local community</button>
+        </div>
+        <div>
+            <img src="">
+        </div>
+    </div>
 </body>
+<script src='assets/js/main.js'></script>
+<script src="assets/js/mapStyle.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWaLqq3LrG11PnQ1qVBXyRSTIJ-iI7TBw&callback=initMap"async defer></script>
 </html>
